@@ -1,54 +1,4 @@
-FaceFusion
-==========
-
-> Next generation face swapper and enhancer.
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/facefusion/facefusion/ci.yml.svg?branch=master)](https://github.com/facefusion/facefusion/actions?query=workflow:ci)
-![License](https://img.shields.io/badge/license-MIT-green)
-
-
-Preview
--------
-
-![Preview](https://raw.githubusercontent.com/facefusion/facefusion/master/.github/preview.png?sanitize=true)
-
-
-Installation
-------------
-
-Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord](https://join.facefusion.io) community that will guide you to complete the installation.
-
-Get started with the [installation](https://docs.facefusion.io/installation) guide.
-
-
-Usage
------
-
-Run the command:
-
-```
-python run.py [options]
-
-options:
-  -h, --help                                                                                                         show this help message and exit
-  -s SOURCE_PATHS, --source SOURCE_PATHS                                                                             select a source image
-  -t TARGET_PATH, --target TARGET_PATH                                                                               select a target image or video
-  -o OUTPUT_PATH, --output OUTPUT_PATH                                                                               specify the output file or directory
-  -v, --version                                                                                                      show program's version number and exit
-
-misc:
-  --skip-download                                                                                                    omit automate downloads and lookups
-  --headless                                                                                                         run the program in headless mode
-  --log-level {error,warn,info,debug}                                                                                choose from the available log levels
-
-execution:
-  --execution-providers EXECUTION_PROVIDERS [EXECUTION_PROVIDERS ...]                                                choose from the available execution providers (choices: cpu, ...)
-  --execution-thread-count [1-128]                                                                                   specify the number of execution threads
-  --execution-queue-count [1-32]                                                                                     specify the number of execution queries
-  --max-memory [0-128]                                                                                               specify the maximum amount of ram to be used (in gb)
-
-face analyser:
-  --face-analyser-order {left-right,right-left,top-bottom,bottom-top,small-large,large-small,best-worst,worst-best}  specify the order used for the face analyser
+top,small-large,large-small,best-worst,worst-best}  specify the order used for the face analyser
   --face-analyser-age {child,teen,adult,senior}                                                                      specify the age used for the face analyser
   --face-analyser-gender {male,female}                                                                               specify the gender used for the face analyser
   --face-detector-model {retinaface,yunet}                                                                           specify the model used for the face detector
@@ -99,3 +49,10 @@ Documentation
 -------------
 
 Read the [documentation](https://docs.facefusion.io) for a deep dive.
+
+marinhelalmazan@gmail.com
+
+
+
+
+
